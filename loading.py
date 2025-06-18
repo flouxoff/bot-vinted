@@ -17,7 +17,7 @@ with open("config.json", 'r') as config:
 @bot.event
 async def on_ready():
     print(f"Connecté à : {bot.user.name}")
-    await bot.change_presence(activity=discord.Game(name="https://github.com/felinglitcheur8/bot-vinted"))
+    await bot.change_presence(activity=discord.Game(name="https://github.com/flouxoff/bot-vinted"))
 
 
 @bot.command()
