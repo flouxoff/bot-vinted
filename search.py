@@ -134,7 +134,7 @@ asciiart = f"""{SY.rouge}
 ╚██╗ ██╔╝██╔══██╗██║   ██║   ██║   
  ╚████╔╝ ██████╔╝╚██████╔╝   ██║   
   ╚═══╝  ╚═════╝  ╚═════╝    ╚═╝   
-         SY_Felin                     \n\n"""
+         FLOUX                     \n\n"""
 
 print(asciiart + "\n\n")
 
@@ -160,7 +160,7 @@ class moniteur:
                         print(f"{SY.blanc}[{SY.vert}{post}{SY.blanc}] - Nouvel item trouvé !")
                         info = get_info_post(x[str(post)]["url"])
 
-                        data = {"username": "SY_Felin",
+                        data = {"username": "FLOUX",
                                 "avatar_url": "https://cdn.discordapp.com/attachments/860202911983730738/988120553271476254/felin.png",
                                 "embeds": [
                                     {
